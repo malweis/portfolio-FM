@@ -6,8 +6,14 @@ import {
     SiGit,
     SiGithub,SiPostgresql,SiMysql,
     SiJavascript, SiNextdotjs, SiReact, SiTypescript,
-    SiMongodb,
-    SiNodedotjs
+    SiNodedotjs,
+    SiTailwindcss,
+    SiVite,
+    SiRedux,
+    SiGraphql,
+    SiReactquery,
+    SiGitlab,
+    SiJira
 } from "react-icons/si";
 import AnimatedTools from "../animations/AnimatedTools.tsx";
 
@@ -32,12 +38,14 @@ const Tools = () => {
                     <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-bold leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[40px] md:leading-relaxed lg:mb-16 lg:w-[50%]">
                         <AnimatedBody delay={0.2} text="Frontend" />
                         <div>
-                            <AnimatedTools className="grid grid-cols-5 gap-4" delay={0.2} stepSize={0.1} iconSize={50}>
+                            <AnimatedTools className="grid grid-cols-7 gap-4" delay={0.2} stepSize={0.1} iconSize={50}>
                                 <SiTypescript size={50}/>
                                 <SiJavascript size={50}/>
                                 <SiReact size={50}/>
-                                
                                 <SiNextdotjs size={50}/>
+                                <SiVite size={50}/>
+                                <SiRedux size={50}/>
+                                <SiTailwindcss size={50}/>
                             </AnimatedTools>
                         </div>
                     </div>
@@ -47,7 +55,8 @@ const Tools = () => {
                             <AnimatedTools className="grid grid-cols-5 gap-4" delay={0.3} stepSize={0.1} iconSize={50}>
                                 <SiPostgresql size={50}/>
                                 <SiMysql size={50}/>
-                                <SiMongodb size={50}/>
+                                <SiGraphql size={50}/>
+                                <SiReactquery size={50}/>
                                 <SiNodedotjs size={50}/>
                             </AnimatedTools>
                         </div>
@@ -58,6 +67,8 @@ const Tools = () => {
                             <AnimatedTools className="grid grid-cols-5 gap-4" delay={0.4} stepSize={0.1} iconSize={50}>
                                 <SiGithub size={50}/>
                                 <SiGit size={50}/>
+                                <SiGitlab size={50}/>
+                                <SiJira size={50}/>
                                 
                             </AnimatedTools>
                         </div>

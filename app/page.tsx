@@ -18,7 +18,7 @@ import Tools from "./sections/Tools.tsx";
 
 export default function Home() {
 
-    const [isMobile, setIsMobile] = useState(false);
+    const [, setIsMobile] = useState(false);
 
     useEffectOnce(() => {
         window.scrollTo({
