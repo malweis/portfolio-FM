@@ -21,16 +21,20 @@ const About = () => {
 
                 <div className="mx-auto flex w-[100%] flex-col lg:max-w-[1200px] lg:flex-row lg:gap-20">
                     <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16  lg:max-w-[90%] lg:text-[24px] ">
-                        <AnimatedBody text="Front-end developer that focuses on web applications.My main expertise is in React.js with a lot of experience using Next.js as a framework, I've also built large scale financial applications using other technologies mainly with Vite and tailwind." />
+                        <AnimatedBody text="I am a front-end developer with a focus on creating robust and user-friendly web applications. My core expertise lies in React.js, with extensive experience leveraging Next.js as a framework. I've also successfully built large-scale financial applications using cutting-edge technologies, primarily employing Vite and Tailwind CSS." />
 
                         <AnimatedBody
                             delay={0.1}
-                            text="I use modern frameworks and libraries to create responsive and interactive websites. I’m always learning new technologies and expanding my skill set. The reason i always try to use new technologies is that most of them have accessibility as a standard and my main reason to become a developer if that everyone can use the things i build."
+                            text="My approach involves utilizing modern frameworks and libraries to craft responsive and interactive websites that deliver exceptional user experiences. I'm passionate about continuous learning and constantly expanding my skill set to stay at the forefront of web development."
                         />
 
                         <AnimatedBody
                             delay={0.2}
-                            text="Currently working in financial industry but always looking for new opportunities to grow and learn in other fields"
+                            text="One of my primary motivations for becoming a developer is to ensure that the applications I build are accessible to everyone. This commitment drives me to explore and adopt new technologies that prioritize accessibility as a standard feature."
+                        />
+                        <AnimatedBody
+                            delay={0.3}
+                            text="While I currently work in the financial industry, I'm always open to new opportunities that allow me to grow, learn, and apply my skills in diverse fields."
                         />
                     </div>
                 </div>
