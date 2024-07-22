@@ -50,7 +50,7 @@ export const metadata: Metadata = {
                 url: "./public/metadata.jpg",
                 width: 1200,
                 height: 630,
-                alt: "Portfolio template - Eldora UI",
+                alt: "Portfolio of Federico Molas",
             },
         ],
         locale: "en-US",
@@ -58,10 +58,10 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Portfolio template - Eldora UI",
+        title: "Federico Molas Portfolio",
         description:
-      "Portfolio template - Eldora UI is a portfolio template built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
-        creator: "@karthikmudunuri",
+        "Portfolio of Federico Molas, a software developer and designer based in Paraguay.",
+        creator: "@malweis01",
         creatorId: "0000000000",
         images: ["./public/metadata.jpg"],
     },
