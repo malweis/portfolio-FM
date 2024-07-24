@@ -19,12 +19,12 @@ const Contact = () => {
             <ContactBackground />
             <div className="mx-auto  flex w-[90%] flex-col items-center justify-center pt-10 md:pt-0">
                 <div
-                    className={`flex flex-col items-start justify-center ${inter.className} relative w-full sm:items-center lg:max-w-[1440px] `}
+                    className={`flex flex-col items-start justify-center ${inter.className} relative w-full h-98  sm:items-center lg:max-w-[1440px] `}
                 >
                     <AnimatedWords
                         title={"contact"}
                         style={
-                            "flex max-w-[250px] flex-col items-start text-left text-[100px] font-extrabold uppercase leading-[0.9em] text-[#e4ded7] sm:max-w-full sm:flex-row sm:items-center sm:justify-center sm:text-center sm:text-[150px] md:text-[150px] lg:text-center lg:text-[120px] xl:text-[250px]"
+                            "flex max-w-[250px] flex-col items-start text-left text-7xl font-extrabold uppercase leading-[0.9em] text-[#e4ded7] sm:max-w-full sm:flex-row sm:items-center sm:justify-center sm:text-center sm:text-[150px] md:text-[150px] lg:text-center lg:text-[120px] xl:text-[250px] "
                         }
                     />
                 </div>
