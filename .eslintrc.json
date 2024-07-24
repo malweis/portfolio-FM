@@ -83,8 +83,6 @@
     "unicorn/throw-new-error": "error",
     "prefer-const": "off",
     "array-callback-return": ["error", { "allowImplicit": true }],
-    "indent": ["error", 4, { "SwitchCase": 1 }],
-    "semi": ["error", "always"],
     "@typescript-eslint/no-namespace": "off",
     "@typescript-eslint/unbound-method": "off",
     "@typescript-eslint/no-explicit-any": "off",
