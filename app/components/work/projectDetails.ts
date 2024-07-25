@@ -6,9 +6,11 @@ import {
   SiNeovim,
   SiNextdotjs,
   SiReact,
+  SiRedux,
   SiRust,
   SiTailwindcss,
   SiTypescript,
+  SiVite,
   SiWebgl,
   SiZig,
 } from "react-icons/si";
@@ -28,6 +30,25 @@ export type ProjectProps = {
 };
 
 export const projects = [
+  {
+    id: 0,
+    name: "Banco Atlas",
+    description:
+      "Web banking application built with Vite, React, Tailwind CSS",
+    technologies: [SiTypescript, SiReact, SiVite, SiTailwindcss, SiRedux],
+    techNames: ["TypeScript", "React", "Vite", "Tailwind CSS", "Redux"],
+    techLinks: [
+      "https://www.typescriptlang.org/",
+      "https://reactjs.org/",
+      "https://vitejs.dev/",
+      "https://tailwindcss.com/",
+      "https://redux-toolkit.js.org/",
+    ],
+    github: "https://github.com/malweis",
+    demo: "https://secure.atlas.com.py/atlasdigital",
+    image: "/projects/atlas.png",
+    available: true,
+  },
   {
     id: 0,
     name: "Next.js blog",
